@@ -11,4 +11,16 @@ Creating a php class
         private $education;
       }
       
+      /* Create a primary constructor and initialize the name, experience, language and education to a value.*/	
+      
+      public __construct($name, $experience, $lang, $education){
+      
+        $this->name = "$name";
+        $this->expperience ="$experience";
+        $this->lang ="$language";
+        $this->education = "$education";
+      
+     }
+      
+      
      ?>
