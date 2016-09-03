@@ -63,4 +63,19 @@ Creating a php class
 		$this->experience =$education;
 	
 	}
+	
+	
+/* d. Create a function called output to display the programmer name, the programmer years of experience, the programmer favorite language and the type of degree obtained.*/	
+	
+	function output(){
+		
+		echo" ------------Programmer Credential--------------".'<br>';
+		echo "programme name: ".$this->name.'<br>';
+		echo "Years of experience: ".$this->experience.'<br>';
+		echo "Favourite Language: ".$this->lang.'<br>';
+		echo "Education: ".$this->education.'<br>';
+		echo '<br>';
+	}
+	
+		
 	?>
