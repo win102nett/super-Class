@@ -73,16 +73,16 @@ Creating a php class
         
 /* g. Use the setter function to change Paul Conrad years of experience from 12 to 30 and language from PHP to Java. */
 
-       $Paul->setEXP(30);
-       $Paul->setLANG('Java');        
+        $Paul->setEXP(30);
+        $Paul->setLANG('Java');        
 
 /* h. Display programmer updated information using the output function. */
 
-       $Paul->output();
+        $Paul->output();
 
 /* i. Use the getter function to display the programmer name and education.[2 marks] */
 
-       echo "Programmer's Name: ".$Paul->getName().'<br>';
-       echo "Education: ".$Paul->getEDU();        
+        echo "Programmer's Name: ".$Paul->getName().'<br>';
+        echo "Education: ".$Paul->getEDU();        
         
      ?>
