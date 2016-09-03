@@ -63,4 +63,26 @@ Creating a php class
 		$this->experience =$education;
 	
 	}
-	?>
+	
+/* e. Instantiate Programmer to the object called Paul that have the following attributes: Name = Paul Conrad Experience = 12 Language = PHP Education = Bachelor of Science in Computer Science */
+
+        $Paul = new Programmer('Paul Conrad', 12, 'PHP', 'Bachelor of Science in Computer Science');
+        
+// f. Display the programmer information using the output function. [1 mark]
+        $Paul->output();
+        
+// g. Use the setter function to change Paul Conrad years of experience from 12 to 30 and language from PHP to Java. [2 marks]
+
+       $Paul->setEXP(30);
+       $Paul->setLANG('Java');        
+
+// h. Display programmer updated information using the output function. [1 mark]
+
+       $Paul->output();
+
+// i. Use the getter function to display the programmer name and education.[2 marks]
+
+       echo "Programmer's Name: ".$Paul->getName().'<br>';
+       echo "Education: ".$Paul->getEDU();        
+        
+     ?>
