@@ -22,3 +22,45 @@ Creating a php class
       
      }
     ?>
+    
+   /* c. Create get and set functions for all the class properties. */	 
+   
+    <?php
+     public function getName(){
+		
+		return $this->name;
+	}	
+		
+	public function setName($name){
+		
+		$this->name = $name;
+		
+	}	
+	public function getEXP(){
+		
+		return $this->experience;
+	}
+	public function setEXP($experience){
+		
+		$this->experience =$experience;
+		
+	}
+	public function getLANG(){
+		
+		return $this->lang;
+	}
+	public function setLANG($lang){
+		
+		$this->lang =$lang;	
+	}
+	
+	public function getEDU(){
+		
+		return $this->education;
+	}
+	public function setEDU($education){
+		
+		$this->experience =$education;
+	
+	}
+	?>
